@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7989CB023DD311D005B055E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7989CAF23DD311D005B055E /* AppDelegate.swift */; };
+		D7989CB223DD311D005B055E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7989CB123DD311D005B055E /* SceneDelegate.swift */; };
+		D7989CB423DD311D005B055E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7989CB323DD311D005B055E /* ViewController.swift */; };
+		D7989CB723DD311D005B055E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7989CB523DD311D005B055E /* Main.storyboard */; };
+		D7989CB923DD311F005B055E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7989CB823DD311F005B055E /* Assets.xcassets */; };
+		D7989CBC23DD311F005B055E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7989CBA23DD311F005B055E /* LaunchScreen.storyboard */; };
+		D7989CC723DD311F005B055E /* ClothingSwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7989CC623DD311F005B055E /* ClothingSwapTests.swift */; };
+		D7989CD223DD3524005B055E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7989CD123DD3524005B055E /* GoogleService-Info.plist */; };
+		D7989CD323DD3524005B055E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7989CD123DD3524005B055E /* GoogleService-Info.plist */; };
+		D7D0587BE8214B6CE7B7498F /* libPods-ClothingSwap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03448C9205964CA24FAF625D /* libPods-ClothingSwap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7989CC323DD311F005B055E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7989CA423DD311D005B055E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7989CAB23DD311D005B055E;
+			remoteInfo = ClothingSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03448C9205964CA24FAF625D /* libPods-ClothingSwap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClothingSwap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116A473F63DD1329C4047570 /* Pods-ClothingSwap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothingSwap.release.xcconfig"; path = "Target Support Files/Pods-ClothingSwap/Pods-ClothingSwap.release.xcconfig"; sourceTree = "<group>"; };
+		3F5663551CDEEA382915D318 /* Pods-ClothingSwap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothingSwap.debug.xcconfig"; path = "Target Support Files/Pods-ClothingSwap/Pods-ClothingSwap.debug.xcconfig"; sourceTree = "<group>"; };
+		D7989CAC23DD311D005B055E /* ClothingSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothingSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7989CAF23DD311D005B055E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7989CB123DD311D005B055E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7989CB323DD311D005B055E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7989CB623DD311D005B055E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7989CB823DD311F005B055E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7989CBB23DD311F005B055E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7989CBD23DD311F005B055E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7989CC223DD311F005B055E /* ClothingSwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClothingSwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7989CC623DD311F005B055E /* ClothingSwapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingSwapTests.swift; sourceTree = "<group>"; };
+		D7989CC823DD311F005B055E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7989CD123DD3524005B055E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7989CA923DD311D005B055E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D0587BE8214B6CE7B7498F /* libPods-ClothingSwap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7989CBF23DD311F005B055E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AC711CF826346C8CF357B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F5663551CDEEA382915D318 /* Pods-ClothingSwap.debug.xcconfig */,
+				116A473F63DD1329C4047570 /* Pods-ClothingSwap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EDDD68CB63EE37C0F28A434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03448C9205964CA24FAF625D /* libPods-ClothingSwap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7989CA323DD311D005B055E = {
+			isa = PBXGroup;
+			children = (
+				D7989CAE23DD311D005B055E /* ClothingSwap */,
+				D7989CC523DD311F005B055E /* ClothingSwapTests */,
+				D7989CAD23DD311D005B055E /* Products */,
+				74AC711CF826346C8CF357B1 /* Pods */,
+				7EDDD68CB63EE37C0F28A434 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7989CAD23DD311D005B055E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7989CAC23DD311D005B055E /* ClothingSwap.app */,
+				D7989CC223DD311F005B055E /* ClothingSwapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7989CAE23DD311D005B055E /* ClothingSwap */ = {
+			isa = PBXGroup;
+			children = (
+				D7989CAF23DD311D005B055E /* AppDelegate.swift */,
+				D7989CB123DD311D005B055E /* SceneDelegate.swift */,
+				D7989CB323DD311D005B055E /* ViewController.swift */,
+				D7989CB523DD311D005B055E /* Main.storyboard */,
+				D7989CB823DD311F005B055E /* Assets.xcassets */,
+				D7989CBA23DD311F005B055E /* LaunchScreen.storyboard */,
+				D7989CD123DD3524005B055E /* GoogleService-Info.plist */,
+				D7989CBD23DD311F005B055E /* Info.plist */,
+			);
+			path = ClothingSwap;
+			sourceTree = "<group>";
+		};
+		D7989CC523DD311F005B055E /* ClothingSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7989CC623DD311F005B055E /* ClothingSwapTests.swift */,
+				D7989CC823DD311F005B055E /* Info.plist */,
+			);
+			path = ClothingSwapTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7989CAB23DD311D005B055E /* ClothingSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7989CCB23DD311F005B055E /* Build configuration list for PBXNativeTarget "ClothingSwap" */;
+			buildPhases = (
+				35F989F5ACF979DDAA8CAD90 /* [CP] Check Pods Manifest.lock */,
+				D7989CA823DD311D005B055E /* Sources */,
+				D7989CA923DD311D005B055E /* Frameworks */,
+				D7989CAA23DD311D005B055E /* Resources */,
+				B224C684A39F002AB098A239 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClothingSwap;
+			productName = ClothingSwap;
+			productReference = D7989CAC23DD311D005B055E /* ClothingSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7989CC123DD311F005B055E /* ClothingSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7989CCE23DD311F005B055E /* Build configuration list for PBXNativeTarget "ClothingSwapTests" */;
+			buildPhases = (
+				D7989CBE23DD311F005B055E /* Sources */,
+				D7989CBF23DD311F005B055E /* Frameworks */,
+				D7989CC023DD311F005B055E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7989CC423DD311F005B055E /* PBXTargetDependency */,
+			);
+			name = ClothingSwapTests;
+			productName = ClothingSwapTests;
+			productReference = D7989CC223DD311F005B055E /* ClothingSwapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7989CA423DD311D005B055E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Koh;
+				TargetAttributes = {
+					D7989CAB23DD311D005B055E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D7989CC123DD311F005B055E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D7989CAB23DD311D005B055E;
+					};
+				};
+			};
+			buildConfigurationList = D7989CA723DD311D005B055E /* Build configuration list for PBXProject "ClothingSwap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7989CA323DD311D005B055E;
+			productRefGroup = D7989CAD23DD311D005B055E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7989CAB23DD311D005B055E /* ClothingSwap */,
+				D7989CC123DD311F005B055E /* ClothingSwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7989CAA23DD311D005B055E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7989CBC23DD311F005B055E /* LaunchScreen.storyboard in Resources */,
+				D7989CD223DD3524005B055E /* GoogleService-Info.plist in Resources */,
+				D7989CB923DD311F005B055E /* Assets.xcassets in Resources */,
+				D7989CB723DD311D005B055E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7989CC023DD311F005B055E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7989CD323DD3524005B055E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F989F5ACF979DDAA8CAD90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClothingSwap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B224C684A39F002AB098A239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClothingSwap/Pods-ClothingSwap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClothingSwap/Pods-ClothingSwap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClothingSwap/Pods-ClothingSwap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7989CA823DD311D005B055E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7989CB423DD311D005B055E /* ViewController.swift in Sources */,
+				D7989CB023DD311D005B055E /* AppDelegate.swift in Sources */,
+				D7989CB223DD311D005B055E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7989CBE23DD311F005B055E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7989CC723DD311F005B055E /* ClothingSwapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7989CC423DD311F005B055E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7989CAB23DD311D005B055E /* ClothingSwap */;
+			targetProxy = D7989CC323DD311F005B055E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7989CB523DD311D005B055E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7989CB623DD311D005B055E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7989CBA23DD311F005B055E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7989CBB23DD311F005B055E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7989CC923DD311F005B055E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7989CCA23DD311F005B055E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7989CCC23DD311F005B055E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5663551CDEEA382915D318 /* Pods-ClothingSwap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClothingSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.ClothingSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7989CCD23DD311F005B055E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116A473F63DD1329C4047570 /* Pods-ClothingSwap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClothingSwap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.ClothingSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7989CCF23DD311F005B055E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClothingSwapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.ClothingSwapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClothingSwap.app/ClothingSwap";
+			};
+			name = Debug;
+		};
+		D7989CD023DD311F005B055E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClothingSwapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.ClothingSwapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClothingSwap.app/ClothingSwap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7989CA723DD311D005B055E /* Build configuration list for PBXProject "ClothingSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7989CC923DD311F005B055E /* Debug */,
+				D7989CCA23DD311F005B055E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7989CCB23DD311F005B055E /* Build configuration list for PBXNativeTarget "ClothingSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7989CCC23DD311F005B055E /* Debug */,
+				D7989CCD23DD311F005B055E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7989CCE23DD311F005B055E /* Build configuration list for PBXNativeTarget "ClothingSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7989CCF23DD311F005B055E /* Debug */,
+				D7989CD023DD311F005B055E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7989CA423DD311D005B055E /* Project object */;
+}
